@@ -1,0 +1,9 @@
+[
+  {
+    "msg_id": 1,
+    "node_id": "the device id",
+    "status": "device dependent status",
+    "payload":  "some devices will send a string representing some data",
+    "created_at": "2011-04-18T23:23:56Z"
+  }
+]

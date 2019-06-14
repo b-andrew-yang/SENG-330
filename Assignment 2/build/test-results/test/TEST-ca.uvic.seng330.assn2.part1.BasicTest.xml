@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ca.uvic.seng330.assn2.part1.BasicTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-10-27T04:12:16" hostname="Andrews-Air.hitronhub.home" time="0.002">
+  <properties/>
+  <testcase name="testObjectsExist" classname="ca.uvic.seng330.assn2.part1.BasicTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

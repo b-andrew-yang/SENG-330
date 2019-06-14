@@ -1,0 +1,1 @@
+{"Living Room Plug":"Off","Mom's Room Lightbulb":"Off","Cam":"Off"}

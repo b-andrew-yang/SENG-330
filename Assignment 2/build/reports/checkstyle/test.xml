@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.19">
+<file name="/Users/andrewyang/Desktop/Fall 2018/SENG 330/assignment-2-b-andrew-yang/src/test/java/ca/uvic/seng330/assn2/part1/BasicTest.java">
+<error line="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="5" column="24" severity="warning" message="&apos;{&apos; at column 24 should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="7" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="8" column="34" severity="warning" message="&apos;{&apos; at column 34 should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+</file>
+<file name="/Users/andrewyang/Desktop/Fall 2018/SENG 330/assignment-2-b-andrew-yang/src/test/java/ca/uvic/seng330/assn2/part2/InstructorTestAssn2Part2.java">
+</file>
+</checkstyle>

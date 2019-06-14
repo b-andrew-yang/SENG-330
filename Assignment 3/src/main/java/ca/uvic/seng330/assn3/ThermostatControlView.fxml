@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="455.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="117.0" layoutY="14.0" text="Thermostat Control">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="431.0" mnemonicParsing="false" onAction="#onBackClick" prefHeight="43.0" prefWidth="90.0" text="BACK" />
+      <Label layoutX="125.0" layoutY="141.0" text="STATUS:">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="59.0" layoutY="337.0" mnemonicParsing="false" onAction="#onStartClick" prefHeight="43.0" prefWidth="90.0" text="Start" />
+      <Label fx:id="label_status" layoutX="310.0" layoutY="141.0" text="Off">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="127.0" layoutY="184.0" text="TEMPERATURE: ">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_temperature" layoutX="310.0" layoutY="184.0" text="0 ˚C">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="275.0" layoutY="337.0" mnemonicParsing="false" onAction="#onToggleClick" prefHeight="43.0" prefWidth="116.0" text="Toggle Unit" />
+      <Button layoutX="155.0" layoutY="337.0" mnemonicParsing="false" onAction="#onStopClick" prefHeight="43.0" prefWidth="90.0" text="Stop" />
+   </children>
+</Pane>

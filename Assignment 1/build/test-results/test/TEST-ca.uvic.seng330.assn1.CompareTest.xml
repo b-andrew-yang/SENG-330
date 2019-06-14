@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ca.uvic.seng330.assn1.CompareTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-09-25T18:07:53" hostname="w134-87-158-070.wireless.uvic.ca" time="0.007">
+  <properties/>
+  <testcase name="validatesOutputOfToString" classname="ca.uvic.seng330.assn1.CompareTest" time="0.002"/>
+  <testcase name="testsComparableWhenEqual" classname="ca.uvic.seng330.assn1.CompareTest" time="0.001"/>
+  <testcase name="testsComparableWhenGreater" classname="ca.uvic.seng330.assn1.CompareTest" time="0.0"/>
+  <testcase name="testPlayerComparator" classname="ca.uvic.seng330.assn1.CompareTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
