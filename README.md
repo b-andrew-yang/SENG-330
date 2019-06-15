@@ -1,10 +1,10 @@
 # SENG-330
-Object Oriented Programming
+## Object Oriented Programming
 
 Introduction to the discipline of object-oriented software design. Topics include encapsulation, polymorphism, inheritance, inversion of control, testing object-oriented code, concurrency, and design patterns. Development of practical skills using modern tools and techniques based on current research and practice in software engineering.
 
-Assignment 1:
-  Specifications:
+### Assignment 1:
+  #### Specifications:
     * Design a 'Player' class, which have some properties you must add:
         - 'Position' on a hocket team. There are at least four: 'Defender, Winger, Centre, Goalie'.
         - 'points' (a point in hockey is a goal or an assist).
@@ -23,7 +23,7 @@ Assignment 1:
      * Override the 'Object.toString()' method in order to print the following for a 'Team':
           'System.out.println(canucks) --> "Canucks have four points."
    
-  Lessons Learned:
+  #### Lessons Learned:
      * For this assignment we were to use 'Gradle' to build and test our program. Using 'Gradle' we could easily automate
        compile/build/test loops from the command line. This was my first time using 'Gradle' and it was a little bit difficult 
        to get started with it.
@@ -33,8 +33,8 @@ Assignment 1:
      * Lastly, the 'Comparable' interface and implementation of a 'PlayerComparator' were design frameworks that I have never 
        used before. These interfaces made it easy to sort a list, using the inherent 'sort()' methods of lists. 
        
-Assignment 2:
-  Specifications:
+### Assignment 2:
+  #### Specifications:
      * Build an 'IOT' (Internet of Things) system with a 'Mediator' that will handle updates from multiple sources and send 
       to multiple recipients in a smart home. You should support these types of IOT devices:
         - 'Camera'
@@ -72,7 +72,7 @@ Assignment 2:
      * Your assignment will need to adhere to the Google Java style. We will use Checkstyle to enforce this.
      * Use JUnit to test your assignment. 
   
-  Lessons Learned:
+  #### Lessons Learned:
      * Using JUnit to test was an interesting thought experiment. I think at times its assumed that code will just execute
       the way we've written it, but it doesn't always. Tests are an important part to ensure that our code in functioning as
       intended.
@@ -81,8 +81,8 @@ Assignment 2:
      * This was a more complicated version of Assignment 1. Using the Hub to access the different 'Things' so inheritance
       was far more important.
 
-Assignment 3:
-  Specifications:
+### Assignment 3:
+  #### Specifications:
     * Implement a "Client" (View) that handles updates from cameras, thermostats etc. This client may be either a
       'WebClient', 'AndroidClient', or 'DesktopClient'.
          - Use JavaFX/FXML or Spring MVC to implement the UI.
@@ -99,7 +99,7 @@ Assignment 3:
         - Given a functioning camera, when the user clicks on the Client camera control (button tab, etc), then they
           see the data from the Camera. 
           
-  Lessons Learned:
+  #### Lessons Learned:
     * JavaFX had quite a large learning curve for me. I had never dabbled with UI implementation so that was quite
       illuminating. Once I got the hang of it, it became a very enjoyable aspect of the asignment. 
     * MVC (Model, View, Controller) design was tough to coordinate at first. On paper it makes perfect sense, but
